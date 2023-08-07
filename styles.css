@@ -135,4 +135,17 @@ footer {
     text-align: center;
     padding: 30px;
     border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.fa-github{
+    margin: auto;
+    font-size: 30px;
+}
+
+footer svg:hover {
+    filter: invert(15%) sepia(85%) saturate(2883%) hue-rotate(348deg) brightness(122%) contrast(94%);
 }
