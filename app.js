@@ -28,6 +28,7 @@ function initializeGame() {
         cell.addEventListener('click', boxClicked, { once: true })
     });
     running = true;
+    currentPlayer = "X";
     updateDisplay();
 }
 
